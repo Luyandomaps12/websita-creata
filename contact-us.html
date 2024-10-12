@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Us</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="The best standing desks for your health and well-being.">
+  <link rel="icon" href="assets/favicon.png">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <header>
+    <div id="home-banner">
+      <h1>The Standing Desk Company</h1>
+      <img src="assets/standing-desk-illustration.svg" alt="standing desk watermark">
+    </div>
+
+    <div id="nav-sticky-anchor">
+      <div id="nav-sticky-container">
+        <nav>
+          <input type="checkbox" hidden id="show-menu">
+          <div class="blackout"></div>
+
+          <div class="nav-left">
+            <label for="show-menu" id="hamburger-menu-icon">
+              <img src="assets/hamburger-menu-bars.svg" class="icon" id="hamburger-menu-bars" alt="button to open menu">
+              <img src="assets/hamburger-menu-x.svg" class="icon" id="hamburger-menu-x" alt="button to close menu">
+            </label>
+          </div>
+
+          <div class="nav-center">
+            <a id="nav-company-name" href="index.html">Standing Desks Ltd</a>
+            <div class="side-menu">
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li>
+                  <a href="products.html">Products</a>
+                  <ul>
+                    <li><a href="standing-desks.html">Standing Desks</a></li>
+                    <li><a href="laptop-risers.html">Laptop Risers</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="health-benefits.html">Health Benefits</a>
+                </li>
+                <li>
+                  <a href="about-us.html">About Us</a>
+                  <ul>
+                    <li id="current-page"><a href="contact-us.html">Contact</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="nav-right">
+            <ul>
+              <li><a href="basket.html"><img src="assets/shopping-basket.svg" class="icon" alt="shopping basket icon"></a></li>
+            </ul>
+          </div>
+        </nav>
+
+        <div id="fade"></div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="contact-us">
+      <div class="artwork">
+    		<h2>Contact Us</h2>
+        <div class="container">
+          <img src="assets/contact-us-artwork.svg" alt="artwork for contact us page">
+        </div>
+      </div>
+
+      <div class="info">
+    		<h2>Contact Us</h2>
+    		<p><strong>Hello there! How can we help you?</strong></p>
+    		<p>Kindly fill in the details and ask your question in the comment section. We will get back to you as soon as we can.</p>
+
+    		<form action="#" method="post">
+          <ul>
+      			<li>
+      				<label for="emailAddress">Email Address<span class="required"> ✲</span></label>
+      				<input type="email" id="emailAddress" name="emailAddress" required>
+      			</li>
+
+      			<li>
+      				<label for="firstName">First Name</label>
+      				<input type="text" id="firstName" name="first_name">
+      			</li>
+
+      			<li>
+      				<label for="last_name">Last Name</label>
+      				<input type="text" id="last_name" name="last_name">
+      			</li>
+
+      			<li>
+      				<label for="comment">Comment<span class="required"> ✲</span></label>
+      				<textarea id="comment" name="Comment" required rows="10"></textarea>
+      			</li>
+          </ul>
+
+  				<input class="main-button button" type="submit" value="Submit">
+    		</form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <ul>
+      <li>
+        <a href="">
+          <img src="assets/twitter-logo.svg" class="icon" alt="Twitter Logo">
+          Twitter
+        </a>
+      </li>
+      <li>
+        <a href="">
+          <img src="assets/facebook-logo.svg" class="icon" alt="Facebook Logo">
+          Facebook
+        </a>
+      </li>
+      <li>
+        <a href="">
+          <img src="assets/email.svg" class="icon" alt="email icon">
+          Email
+        </a>
+      </li>
+    </ul>
+  </footer>
+
+</body>
+
+</html>
